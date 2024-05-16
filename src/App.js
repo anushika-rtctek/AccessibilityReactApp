@@ -1,10 +1,12 @@
-import './App.css';
+// import './App.css';
 import DivTable from './Components/DivTable';
+import { UserForm } from './Components/UserForm';
 
 function App() {
   return (
     <div className="App">
-      <DivTable/>
+      <UserForm/>
+      {/* <DivTable/> */}
     </div>
   );
 }
